@@ -42,14 +42,6 @@ body{
   z-index: 100;
 }
 
-.santa-hat {
-    position: absolute;
-    width: 70px; 
-    height: auto;
-    top: -25px;      
-    left: -15px;     
-    z-index: 10;
-}
 .navbar:hover {
   box-shadow: 0 6px 25px rgba(0, 0, 0, 0.6);
   transform: translateY(-3px);
@@ -78,4 +70,60 @@ body{
   background-color: rgb(32, 32, 32);
   color: rgb(255, 255, 255);
   transform: scale(1.05);
+}
+
+.imgcontainer {
+    display: flex;
+    flex-direction: row;     
+    justify-content: center; 
+    align-items: center;      
+    flex-wrap: wrap;           
+    gap: 20px;                 
+    width: 100%;               
+    margin-top: 50px;
+}
+
+.imgcontainer img {
+    height: 400px;       
+    width: auto;               
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+}
+.footer {
+    background: linear-gradient(135deg, #000000, #1a1a1a);
+    text-align: center;
+    padding: 20px 0;
+    color: white;
+    font-size: 23px;
+    box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.4);
+    border-top: 2px solid rgba(255, 255, 255, 0.726);
+    margin-top: 100px;
+    font-family: 'bebas neue', sans-serif;
+}
+.creds {
+    font-size: 15px;
+}
+.fa-facebook {
+  background: linear-gradient(135deg, #000000, #1a1a1a);
+  color: white;
+  padding: 12px;
+  font-size: 25px;
+  border-radius: 20%;
+  text-decoration: none;
+}
+.fa-instagram {
+  background: linear-gradient(135deg, #000000, #1a1a1a);
+  color: white;
+  padding: 12px;
+  font-size: 25px;
+  border-radius: 20%;
+  text-decoration: none;
+}
+.fa-phone {
+  background: linear-gradient(135deg, #000000, #1a1a1a);
+  color: white;
+  padding: 12px;
+  font-size: 25px;
+  border-radius: 20%;
+  text-decoration: none;
 }
