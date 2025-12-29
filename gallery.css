@@ -71,7 +71,21 @@ body{
   color: rgb(255, 255, 255);
   transform: scale(1.05);
 }
+.gallery-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 65px;
 
+}
+.gallery-title{
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    margin-top: 40px;
+    font-style: italic;
+    font-family: 'bebas neue', sans-serif;
+}
 .imgcontainer {
     display: flex;
     flex-direction: row;     
@@ -80,7 +94,7 @@ body{
     flex-wrap: wrap;           
     gap: 20px;                 
     width: 100%;               
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .imgcontainer img {
